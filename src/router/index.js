@@ -6,6 +6,7 @@ import { createRouter,
 import HomePage from "@/home/HomePage.vue"
 import RobotBuilder from "@/build/RobotBuilder.vue";
 import Partinfo from "@/parts/partinfo.vue";
+import QRcode from "@/build/QRcode.vue";
 
 export default createRouter({
     history: createWebHashHistory(),
@@ -19,6 +20,11 @@ export default createRouter({
         name: "create",
         component: RobotBuilder,
     },{
+        path:"/qrcode",
+        name: "qr",
+        component: QRcode,
+    },
+    {
         path: "/part/partType/:id",
         name: "запчасти",
         component: Partinfo,

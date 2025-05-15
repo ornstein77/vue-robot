@@ -13,6 +13,11 @@
             посторой робота
           </router-link>
         </li>
+        <li class="nav-item">
+          <router-link class="nav-link" :to="{name: 'qr'}">
+            QR
+          </router-link>
+        </li>
       </ul>
     </nav>
   </header>
