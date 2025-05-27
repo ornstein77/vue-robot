@@ -1,29 +1,15 @@
-# build_a_robot
+# Vue Robot 🤖
 
-This template should help get you started developing with Vue 3 in Vite.
+Простой и интерактивный робот, созданный с помощью Vue.js.  
 
-## Recommended IDE Setup
+## Описание  
+Этот проект демонстрирует создание анимированного робота с использованием Vue.js. Робот может реагировать на действия пользователя, например, двигать глазами или менять выражение "лица".  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Технологии  
+- Vue 3 (Composition API)  
+- CSS-анимации  
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Установка и запуск  
+1. Клонируйте репозиторий:  
+   ```sh
+   git clone https://github.com/ornstein77/vue-robot.git
